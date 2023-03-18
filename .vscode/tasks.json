@@ -1,0 +1,42 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "dev:mp-alipay",
+      "problemMatcher": [],
+      "label": "npm: dev:mp-alipay",
+      "detail": "uni -p mp-alipay"
+    },
+    {
+      "type": "npm",
+      "script": "build:mp-alipay",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "npm: build:mp-alipay",
+      "detail": "uni build -p mp-alipay"
+    },
+    {
+      "type": "npm",
+      "script": "dev:mp-weixin",
+      "problemMatcher": [],
+      "label": "npm: dev:mp-weixin",
+      "detail": "uni -p mp-weixin"
+    },
+    {
+      "type": "npm",
+      "script": "build:mp-weixin",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "npm: build:mp-weixin",
+      "detail": "uni build -p mp-weixin"
+    },
+    {
+      "type": "npm",
+      "script": "genapi",
+      "problemMatcher": [],
+      "label": "npm: genapi",
+      "detail": "node ./dev/genApi.mjs"
+    }
+  ]
+}

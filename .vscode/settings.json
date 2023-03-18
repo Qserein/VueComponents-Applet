@@ -1,0 +1,8 @@
+{
+  "editor.tabSize": 2,
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "editor.rulers": [160],
+  "files.associations": {
+    "*.json": "jsonc"
+  }
+}
