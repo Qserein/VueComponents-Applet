@@ -40,3 +40,5 @@ TemplateAppletsv3 小程序模板项目 vue组件库
   以下组件均适用于本模板项目
 
   - [pick-regions](../VueComponents-Applet/src/components/pick-regions/pick-regions.md) 中国省市区三级联动选择器选择
+
+  - [ui-drawe](../VueComponents-Applet/src/components/ui-drawer/ui-drawer.md)下方弹出的抽屉组件
