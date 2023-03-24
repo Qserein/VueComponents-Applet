@@ -42,12 +42,13 @@ const showDrawer = reactive({
 
 # 属性列表
 
-|    属性名    |  类型   |      描述      | 默认值 |
-| :----------: | :-----: | :------------: | :----: |
-|    title     | string  |   抽屉的标题   |        |
-|     show     | Opener  | 控制弹窗的对象 |        |
-|      z       | number  |    弹窗层级    |  1000  |
-| maskClosable | boolean |  点击蒙层关闭  |  true  |
+|    属性名    |  类型   | 默认值 |        描述        |
+| :----------: | :-----: | :----: | :----------------: |
+|    title     | string  |        |     抽屉的标题     |
+|     show     | Opener  |        |   控制弹窗的对象   |
+|      z       | number  |  1000  |      弹窗层级      |
+| maskClosable | boolean |  true  |    点击蒙层关闭    |
+|    @close    |         |        | 关闭弹窗触发的事件 |
 
 # 注意事项
 
